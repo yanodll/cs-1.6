@@ -1,0 +1,116 @@
+//MOUSE SETTINGS
+sensitivity "1.25" // mouse sensitivity
+m_rawinput "1" // enable [1] or disable [0] direct mouse sensitivity
+m_customaccel "0" // enable [1] or disable [0] mouse acceleration
+
+//SOUND SETTINGS
+volume "0.35" // overall volume
+snd_noextraupdate "1" // enable [1] or disable [0] extra sound update
+hisound "1" // toggles high quality sound
+
+//GRAPHICS SETTINGS
+fps_max "999" // maximum amount of fps in game
+mp_decals "30" // sets the maximum decals
+cl_weather "0" // enable [1] or disable [0] weather effects
+cl_shadows "0" // enable [1] or disable [0] shadows
+cl_himodels "0" // enable [1] or disable [0] better quality models
+gl_dither "1" // enable [1] or disable [0] 32 bit
+gl_clear "0" // clear the color-buffer
+gl_affinemodels "1" // applies opengl perspective correction hints
+gl_max_size "1024" // maximum pixel size which textures are loaded in
+gl_cull "1" // enable [1] or disable [0] opengl GL_CULL_FACE setting
+gl_vsync "0" // enable [1] or disable [0] vsync
+gl_ansio "0" // enable [1] or disable [0] ansio
+gl_overbright "1" // enable [1] or disable [0] saturated lighting
+gl_keeptjunctions "0" // fix cracks between some textures
+gl_lightholes "0" // controls whether to apply lighting to surfaces with holes
+gl_monolights "1" // uniform light source, no shadows
+gl_spriteblend "0" // enable [1] or disable [0] alpha-blending on sprites
+gl_fog "0" // enable [1] or disable [0] fog
+gl_wateramp "0" // amplifies the water's waves
+gl_polyoffset "4" // amount of offset to apply to decals on polygons
+gl_round_down "3" // textures accuracy or the textures rounding
+gl_texturemode "GL_LINEAR_MIPMAP_NEAREST" // texture mode
+max_shells "5" // defines the maximum amount of bullet shells
+max_smokepuffs "5" // defines the maximum amount of smoke puffs
+r_mmx "1" // enable [1] or disable [0] the MMX optimizations
+r_dynamic "1" // enable [1] or disable [0] dynamic lights
+r_decals "30" // sets the maximum decals
+r_detailtextures "0" // enable [1] or disable [0] detailed textures
+r_detailtexturessupported "0" // enable [1] or disable [0] detailed textures support
+r_fullbright "1" // enable [1] or disable [0] dynamic shadings/lighting
+r_wateralpha "1" // enable [1] or disable [0] water alpha-blending
+r_mirroralpha "0" // enable [1] or disable [0] mirror reflection effect
+r_lightmap "0" // enable [1] or disable [0] remove all the lights of the map
+r_norefresh "0" // the refreshing of the world and HUD
+r_traceglow "0" // enable [1] or disable [0] the occlusion calculations
+violence_ablood "1" // enable [1] or disable [0] blood effect
+violence_agibs "1" // enable [1] or disable [0] blood effect
+violence_hblood "1" // enable [1] or disable [0] blood effect
+violence_hgibs "1" // enable [1] or disable [0] blood effect
+d_spriteskip "0" // amount of skipped sprites
+v_dark "1" // enable [1] or disable [0] the level to fade in from black upon initial load
+ati_npatch "0" // enable [1] or disable [0] ATI's TRUform technology
+fastsprites "1" // defines quality of smokepuffs
+gunsmoke "0" // enable [1] or disable [0] gunsmoke
+
+//HUD SETTINGS
+hud_centerid "0" // enable [1] or disable [0] display of the targetted enemy's nickname under crosshair
+hud_fastswitch "1" // enable [1] or disable [0] fastswitch
+cl_showfps "0" // enable [1] or disable [0] display of fps
+
+//VIEWMODEL SETTINGS
+cl_bob "0" // reduce gun shaking
+cl_bobcycle "0.8" // reduce gun shaking
+cl_bobup "0" // reduce gun shaking
+cl_righthand "1" // right hand gun position
+
+//GAMEPLAY SETTINGS
+_cl_autowepswitch "0" // enable [1] or disable [0] automatic weapon switch after pickup
+cl_solid_players "0" // enable [1] or disable [0] solid player models
+cl_corpsestay "10" // defines the time after the corpse disappear
+cl_pitchspeed "225" // speed of your look when looking up or down
+cl_nosmooth "1" // enable [1] or disable [0] nosmooth
+cl_filterstuffcmd "1" // bypass commands blocking
+viewsize "120" // hitbox setting
+ambient_fade "0" // distance at which ambient sounds fade away
+
+//NETGRAPH SETTINGS
+net_graph "0" // enable [1] or disable [0] netgraph
+
+//RATE AND NETWORK SETTINGS
+rate "100000" // maximum bytes/sec the host can receive
+cl_updaterate "101" // amount of packets per second of updates you are requesting from the server
+cl_cmdrate "101" // maximum amount of command packets sent to server per second
+cl_resend "1.5" // frequency of reconnecting to the server after a connection loss
+cl_dlmax "102400" // defines the maximum speed of download from community servers
+ex_interp "1" // interpolation amount
+hpk_maxsize "4" // defines the maximum size [MB] of custom.hpk [players logos]
+
+//OTHER SETTINGS
+joystick "0" // enable [1] or disable [0] joystick
+setinfo "_vgui_menus" "0"
+setinfo "_ah" "0"
+
+//BIND SETTINGS
+bind "," "amxmodmenu"
+bind "l" "ak47; primammo"
+bind ";" "m4a1; primammo"
+bind "'" "famas; primammo"
+bind "[" "mp5; primammo"
+bind "]" "awp; primammo"
+bind "o" "usp; secammo"
+bind "p" "deagle; secammo"
+bind "k" "vest; vesthelm; defuser"
+bind "j" "flash; flash; hegren; sgren"
+bind "z" "weapon_flashbang"
+bind "x" "weapon_hegrenade"
+bind "v" "weapon_smokegrenade"
+
+clear
+
+echo ""
+echo ""
+echo "userconfig.cfg has been loaded successfully"
+echo ""
+echo ""
